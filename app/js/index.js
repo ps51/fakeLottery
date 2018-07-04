@@ -1,9 +1,4 @@
-class Test{
-    constructor(){
-        this.idot = 'Hello, World';
-    }
-}
+import 'babel-polyfill';
+import Lottery from './lottery';
 
-let test = new Test();
-
-document.body.innerHTML = test.idot;
+const syy=new Lottery();
