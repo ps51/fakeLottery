@@ -2,11 +2,15 @@
 
 A LOTTERY PROJECT BUILT WITH ECMASCRIPT 6
 
-## install dependencies
+## Build Setup
+
+``` bash
+# install dependencies
 npm install
 
-## serve with hot reload at localhost:3000
+# serve with hot reload at localhost:3000
 gulp --watch
 
-## build for production
+# build for production
 gulp
+```
