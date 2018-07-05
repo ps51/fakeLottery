@@ -1,6 +1,6 @@
-# ES6-LOTTERY
+# fakeLottery
 
-A LOTTERY PROJECT BUILT WITH ECMASCRIPT 6
+A lottery project built with ECMASCRIPT 6
 
 ## Build Setup
 
@@ -14,3 +14,7 @@ gulp --watch
 # build for production
 gulp
 ```
+
+## WebSite
+
+[fakeLottery](http://dev.feihu1996.cn/fakeLottery "fakeLottery")
