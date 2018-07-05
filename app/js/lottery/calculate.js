@@ -86,7 +86,7 @@ class Calculate{
           }else{
             let newArr=[].concat(arr);
             newArr.splice(0,i+1);
-            f(newArr,size-1,newResult)
+            f(newArr,size-1,newResult) // 在es6的递归调用中，不能使用arguments.callee，只能使用函数名称
           }
         }
       }

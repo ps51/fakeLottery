@@ -27,5 +27,9 @@ build/Release
 node_modules
 
 # temp files
-server/public
-server/views
+server/public/*
+server/views/*
+
+# IDE
+.vscode
+.idea

@@ -5,6 +5,7 @@ import Calculate from './lottery/calculate.js';
 import Interface from './lottery/interface.js';
 import $ from 'jquery';
 
+
 const copyProperties=function(target,source){
   for(let key of Reflect.ownKeys(source)){
     if(key!=='constructor'&&key!=='prototype'&&key!=='name'){
