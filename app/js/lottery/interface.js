@@ -1,5 +1,9 @@
 import $ from 'jquery';
 
+// /fakeLottery
+let url_prefix = "";
+// let url_prefix = "/fakeLottery";
+
 class Interface{
   /**
    * [getOmit 获取遗漏数据]
@@ -10,7 +14,7 @@ class Interface{
     let self=this;
     return new Promise((resolve,reject)=>{
       $.ajax({
-        url:'/get/omit',
+        url:url_prefix + '/get/omit',
         data:{
           issue:issue
         },
@@ -34,7 +38,7 @@ class Interface{
     let self=this;
     return new Promise((resolve,rejet)=>{
       $.ajax({
-        url:'/get/opencode',
+        url:url_prefix + '/get/opencode',
         data:{
           issue:issue
         },
@@ -59,7 +63,7 @@ class Interface{
     let self=this;
     return new Promise((resolve,rejet)=>{
       $.ajax({
-        url:'/get/state',
+        url:url_prefix + '/get/state',
         data:{
           issue:issue
         },

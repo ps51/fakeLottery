@@ -1,20 +1,35 @@
 # fakeLottery
 
-A lottery project built with ECMASCRIPT 6
+## 项目描述
+
+纯粹使用ES6语法构建的彩票项目
+
+## 技术栈
+
+HTML
+CSS
+JavaScript(ECMAScript6)
+Gulp(自动化构建工具)
+Node.js
+Express
+Docker(容器端口映射)
+Nginx(反向代理)
 
 ## Build Setup
 
 ``` bash
-# install dependencies
+
+# 安装依赖
 npm install
 
-# serve with hot reload at localhost:3000
-gulp --watch
+# serve with hot reload
+npm run dev
 
 # build for production
-gulp
+npm run build
+
+# run the server
+npm run server
+
 ```
 
-## WebSite
-
-[fakeLottery](http://dev.feihu1996.cn/fakeLottery "fakeLottery")

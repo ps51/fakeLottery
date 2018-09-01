@@ -4,10 +4,11 @@
 <head>
     <meta charset="utf-8">
     <title>fakeLottery</title>
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/layout.css">
-    <link rel="stylesheet" href="/css/lottery.css">
-    <link rel="stylesheet" href="/css/lottery-forkme.css">
+    <link rel="icon" href="<%= url_prefix %>/static/img/favicon.ico">
+    <link rel="stylesheet" href="<%= url_prefix %>/static/css/reset.css">
+    <link rel="stylesheet" href="<%= url_prefix %>/static/css/layout.css">
+    <link rel="stylesheet" href="<%= url_prefix %>/static/css/lottery.css">
+    <link rel="stylesheet" href="<%= url_prefix %>/static/css/lottery-forkme.css">
     <style media="screen">
         #countdown em {
             font-weight: bold;
@@ -216,10 +217,10 @@
     </div>
 
     <!-- Fork me on GitHub -->
-    <div class="forkme-container">
+    <!-- <div class="forkme-container">
             <a href="https://github.com/feihu1996x/fakeLottery" target="_blank">Fork me on GitHub</a>
-    </div>
-    <script src="/js/index.js" charset="utf-8"></script>
+    </div> -->
+    <script src="<%= url_prefix %>/static/js/index.js" charset="utf-8"></script>
 </body>
 
 </html>
