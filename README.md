@@ -14,6 +14,7 @@ Node.js
 Express
 Docker(容器端口映射)
 Nginx(反向代理)
+PM2(Node服务进程管理)
 
 ## Build Setup
 
