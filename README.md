@@ -1,25 +1,19 @@
 # fakeLottery
 
-## 项目描述
+> 使用ES6构建的彩票项目
 
-使用ES6构建的彩票项目
+## Tech Stack
 
-## 技术栈
-
-HTML
-CSS
-JavaScript(ECMAScript6)
-Gulp(自动化构建工具)
-Node.js
-Express
-Docker(容器端口映射)
-Nginx(反向代理)
-PM2(Node服务进程管理)
+- HTML/CSS/JavaScript
+- Gulp
+- Node.js/Express
+- Docker
+- Nginx
+- PM2
 
 ## Build Setup
 
 ``` bash
-
 # 安装依赖
 npm install
 
@@ -31,6 +25,8 @@ npm run build
 
 # run the server
 npm run server
-
 ```
 
+## Demo Link
+
+[http://dev.feihu1996.cn/fakeLottery/](http://dev.feihu1996.cn/fakeLottery/ "fakeLottery")
